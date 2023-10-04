@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#12-fizzbuzz.py
+# 12-fizzbuzz.py
 
 
 def fizzbuzz():
@@ -18,4 +18,3 @@ def fizzbuzz():
             print("Buzz ", end="")
         else:
             print("{} ".format(number), end="")
-
