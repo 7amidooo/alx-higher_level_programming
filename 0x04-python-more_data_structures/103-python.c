@@ -28,7 +28,7 @@ void print_python_bytes(PyObject *p)
 	if (size >= 10)
 		limit = 10;
 	else
-limit = size + 1;
+		limit = size + 1;
 
 	printf("  first %ld bytes:", limit);
 
