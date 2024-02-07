@@ -6,4 +6,4 @@ print list elements
 
 def print_list_integer(my_list=[]):
     for ele in my_list:
-        print(ele)
+        print("{}".format(ele))
