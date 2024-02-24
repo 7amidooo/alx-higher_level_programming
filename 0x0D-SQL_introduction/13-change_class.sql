@@ -1,2 +1,2 @@
--- Drob 
-DROP ROW FROM second_table WHERE score <= 5;
+-- Delete 
+DELETE ROW FROM second_table WHERE score <= 5;
