@@ -1,2 +1,2 @@
--- Show all 89
-SELECT COUNT(id) WHERE ID = 89;
+-- Show all 89 
+SELECT COUNT(*) FROM first_table WHERE ID = 89;
