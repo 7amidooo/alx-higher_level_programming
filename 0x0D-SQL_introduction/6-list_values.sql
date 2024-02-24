@@ -1,3 +1,3 @@
+/0x0D-SQL_introduction$ cat >6-list_values.sql
 -- list rows
-USE hbtn_0c_0;
 SELECT * FROM first_table;
