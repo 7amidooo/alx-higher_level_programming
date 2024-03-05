@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
+"""New class"""
+
 
 class Square:
-    def __init__(self):
-        pass
+    """Square"""
+    pass
