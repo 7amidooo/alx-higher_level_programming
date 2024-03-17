@@ -3,10 +3,13 @@
 import MySQLdb
 import sys
 
-arg = sys.argv
-print(arg[2])
-dp = MySQLdb.connect(host="localhost", user=f"${arg[1]}",
-                     passwd=f"${arg[2]}", database=f"${arg[3]}")
-cur = dp.cursor()
-for dps in cur:
-    print(dps)
+if __name__ == "__main__":
+    arg = sys.argv
+    dp = MySQLdb.connect(host="localhost", user=arg[1],
+                         passwd=arg[2], database=arg[3], port=3306)
+    cur = dp.cursor()
+    cur.execute("select * from states")
+    for dps in cur:
+        print(dps)
+    cur.close()
+    dp.close()
