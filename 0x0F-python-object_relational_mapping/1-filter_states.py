@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""  First using of mysqldb"""
+"""  Second using of mysqldb"""
 import MySQLdb
 import sys
 
