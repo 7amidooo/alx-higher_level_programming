@@ -10,9 +10,29 @@ Import the function:
     >>> add_integer = __import__('0-add_integer').add_integer
 
 Now test it:
+    >>> add_integer(2)
+    100
+
+    >>> add_integer(0)
+    98
+
+    >>> add_integer(123.9)
+    221
+
+    >>> add_integer(-95.5)
+    3
 
     >>> add_integer(1, 2)
     3
+
+    >>> add_integer(999999998, 999999999)
+    1999999997
+    
+    >>> add_integer(-13947692, 57234)
+    -13890458
+
+    >>> add_integer(34263478, -89234582395)
+    -89200318917
 
     >>> add_integer(1, 9.3)
     10
@@ -20,6 +40,9 @@ Now test it:
     >>> add_integer(2)
     100
 
+    >>> add_integer(234234.43545, 4352345)
+    4586579
+    
     >>> add_integer(3, -1)
     2
 
