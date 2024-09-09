@@ -6,8 +6,6 @@ Function to list items of the class
 
 def lookup(obj):
     """
-    Lookup(obj)
-    Return: List of obj attributes and methods
+    returns a List of obj attributes and methods
     """
-    obj1 = obj()
-    return obj1.__dir__()
+    return dir(obj)
